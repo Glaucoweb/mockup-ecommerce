@@ -1,0 +1,21 @@
+@media only screen and (min-width: 769px){
+	.container{
+      width: $container-max;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .container{
+      width: 100%;
+  }
+
+  [class*="column-"] {
+  	width: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  [class*="column-"] {
+  	width: 100%;
+  }
+}

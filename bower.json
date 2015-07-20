@@ -1,0 +1,19 @@
+{
+  "name": "github-search",
+  "version": "1.0.0",
+  "authors": [
+    "glaucoweb <glauco@glaucoweb.com>"
+  ],
+  "description": "Teste para Bematech",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

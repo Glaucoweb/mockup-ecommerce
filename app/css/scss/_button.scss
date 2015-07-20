@@ -1,0 +1,30 @@
+.btn{
+  display: inline-block;
+  height: 40px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  color:$black;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: $orange;
+}
+
+.btn-contact {
+  width: 180px;
+  font-family: 'futuraltbtlight';
+  font-size: 12px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffca00+0,e89a00+100 */
+  background: #ffca00; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffca00 0%, #e89a00 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffca00), color-stop(100%,#e89a00)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffca00 0%,#e89a00 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffca00 0%,#e89a00 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffca00 0%,#e89a00 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #ffca00 0%,#e89a00 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffca00', endColorstr='#e89a00',GradientType=0 ); /* IE6-9 */
+  b{
+    font-weight: bold;
+    font-family: 'futura_md_btbold';
+  }
+}
