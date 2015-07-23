@@ -1,2 +1,12 @@
 %float-left{float: left;}
 %float-right{float: right;}
+
+%style-text{
+	line-height: 18px;
+	font-weight: bold;
+	color: $black;
+}
+
+.relative{
+	position: relative;
+}

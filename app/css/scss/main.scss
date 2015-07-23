@@ -3,15 +3,12 @@
 'variables',
 'placeholders',
 'fonts',
-'type',
 'mixins',
+'type',
 'grid',
 'media-querie',
 'button';
 
-.container{
-	margin: 0 auto;
-}
 .header{
 	margin: 20px 0 30px;
 }
@@ -45,11 +42,16 @@
 	}
 }
 
+
+#home-slider {width:100%;white-space: nowrap;}
+#home-slider .slide {width:$container-max; display: inline-block; white-space: normal;}
+
 .banner{
 	position: relative;
+	overflow:hidden; margin:0 auto 76px; 
 	background: $orange;
 	padding-left: 56px;
-	margin-bottom: 76px;
+	min-height: 330px;
 	h1{
 		font-size: 80px;
 		font-family: 'futura_md_btbold';
@@ -70,30 +72,106 @@
 	figure{
 		margin: 10px 0;
 	}
-	.banner-nav{
+}
+.slide_menu {
 	  position: absolute;
 	  right: 20px;
-	  top: 50%;
-	  li{
-	  	background:$white;
-	  	width: 10px;
-	  	height: 10px;
-	  	@include border-radius(50%);
-	  	@include box-shadow(0 0 3px #000);
-	  	margin-bottom: 6px;
-	  }
-	  a{
-	  	display: block;
-	  	text-indent: -9999px;
-	  }
+	  top: 140px;
+	.active, .inactive{
+		a{
+			width: 20px;
+			height: 20px;
+			display: inline-block;
+	  		text-indent: -9999px;
+	  		margin-bottom: 10px;
+		}
+	}
+	.active{
+		a{
+			background:url('../img/icon-bullet.png') no-repeat 0 0;
+			&:hover{
+				background: url('../img/icon-bullet-off.png') no-repeat 0 0;
+			}
+		}
+	}
+	.inactive{
+		a{
+			background: url('../img/icon-bullet-off.png') no-repeat 0 0;
+			&:hover{
+				background:url('../img/icon-bullet.png') no-repeat 0 0;	
+			}
+		}
 	}
 }
 
+.product{
+	.column-3{
+		text-align: center;
+		border-left:1px solid $gray;
+		padding: 30px 0 10px;
+		@include transition(all, 0.3s, linear );
+		&:first-child{
+			border-left: 0;
+		}
+		&:hover{
+			background:$grayLight;
+			@include transition(all, 0.3s, linear );
+		}
+	}
+	.values{
+		min-height: 50px;
+	}
+}
+.prod-ferracini{
+	cursor: pointer;
+	h3{
+		font-size: 13px;
+		padding: 30px 30px 5px;
+		@extend %style-text;
+	}
+	p{
+		font-size: 12px;
+		font-weight: bold;
+		@extend %style-text;
+		i{
+			font-style: italic;
+		}
+	}
+	.save-money{
+		border: 1px solid $gray;
+		display: block;
+		padding: 6px;
+		font-size: 11px;
+		margin: 10px auto;
+		max-width: 160px;
+		color: $black;
+		text-align: center;
+	}
+}
+
+.rating-star{
+	li{
+		width: 21px;
+		height: 21px;
+		display: inline-block;
+		text-indent: -9999px;
+		background: url('../img/icon-star.png') no-repeat 0 0;
+		background-size: 18px;
+		margin-bottom: 10px;
+		cursor: pointer;
+		&:hover{
+			background: url('../img/icon-star-gold.png') no-repeat 0 0;
+			background-size: 18px;
+		}
+	}
+}
 .footer{
 	background: url(../img/bg-footer.png) repeat 0 0;
 	overflow: hidden;
-	padding: 55px 78px;
 	margin-top: 85px;
+	.row{
+		padding: 55px 78px;
+	}
 	.icon-rj,
 	.icon-sp{
 		background: url(../img/icon-location.png) no-repeat 0 0;
@@ -111,5 +189,19 @@
 		padding:10px;
 		line-height: 20px;
 		@extend %float-left;
+	}
+	.icon-tel,
+	.icon-help
+	{
+		width: 26px;
+		height: 25px;
+		position: absolute;
+		left: 10px;
+	}
+	.icon-tel {
+		background: url('../img/icon-tel.png') no-repeat 0 0;
+	}
+	.icon-help{
+		background: url('../img/icon-help.png') no-repeat 0 0;
 	}
 }

@@ -45,4 +45,8 @@ p {
 }
 a{
   text-decoration: none;
+  &:hover{
+    @include Opacity(.7);
+    @include transition(all, 0.2s, linear );
+  }
 }

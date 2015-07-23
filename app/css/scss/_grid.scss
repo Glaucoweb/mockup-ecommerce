@@ -28,7 +28,8 @@ $container-max: 968px; // tamanho máximo do grid
 
 
 .row {
-  width: 100%;
+  width: $container-max;
+  margin: 0 auto;
   *zoom: 1;
     
   &:before,&:after {

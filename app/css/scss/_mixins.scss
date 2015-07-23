@@ -10,3 +10,20 @@
   -moz-box-shadow: $args;
   box-shadow: $args;
 }
+
+@mixin Opacity($value){
+  $IEValue: $value*100;
+  opacity: $value;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$IEValue+")";
+  filter: alpha(opacity=$IEValue);
+}
+
+@mixin transition($property, $duration, $ms: false) {
+	-webkit-transition: $property $duration ease-in-out;
+	-moz-transition: $property $duration ease-in-out;
+	-o-transition: $property $duration ease-in-out;
+	@if ($ms) {
+		-ms-transition: $property $duration ease-in-out;
+	}
+	transition: $property $duration ease-in-out;
+}
