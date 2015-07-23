@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         separator: ';',
       },
       dist: {
-        src: ['bower_components/jquery/dist/jquery.js', 'app/js/main.js'],
+        src: ['app/js/main.js'],
         dest: 'app/js/main.js',
       },
     },
@@ -17,6 +17,10 @@ module.exports = function(grunt) {
     uglify: {
       options: {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+      },
+      libs: {
+        src: 'bower_components/jquery/dist/jquery.js',
+        dest: 'app/js/libs.js'
       },
       custom: {
         src: 'build/js/main.js',
