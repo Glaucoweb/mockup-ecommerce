@@ -46,7 +46,7 @@ p {
 a{
   text-decoration: none;
   &:hover{
-    @include Opacity(.9);
+    @include opacity(0.9);
     @include transition(all, 0.2s, linear );
   }
 }

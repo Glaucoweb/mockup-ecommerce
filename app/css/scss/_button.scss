@@ -7,7 +7,7 @@
   text-decoration: none;
   text-transform: uppercase;
   background: $orange;
-  @include Opacity(.9s);
+  @include opacity(.9s);
 }
 
 .btn-contact {
@@ -39,7 +39,8 @@
   position: relative;
   padding: 11px 0 11px 16px;
   border: 1px solid #3b3b3b;
-  @include box-shadow(0 0 0 1px #161616);
+  // @include box-shadow(red 2px 2px 10px);
+  @include box-shadow(inset 0 0 0 1px #161616);
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222222+0,161616+100 */
   background-color: #222222; /* Old browsers */
   background-image:-moz-linear-gradient(top, #1F1F1F 0%, #151515 100%); /* FF3.6+ */

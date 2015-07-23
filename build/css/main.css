@@ -1,2 +1,141 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;outline:none;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{overflow-y:scroll}.clearfix:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.clearfix{display:inline-block}html[xmlns] .clearfix{display:block}* html .clearfix{height:1%}[class*="column-"],.footer .icon-rj,.footer .icon-sp,.footer .location{float:left}.nav-menu{float:right}.prod-ferracini h3,.prod-ferracini p{line-height:18px;font-weight:bold;color:#000}.relative{position:relative}@font-face{font-family:'futura_md_btbold';src:url("./fonts/futura-md-bt-bold-webfont.eot");src:url("./fonts/futura-md-bt-bold-webfont.eot?#iefix") format("embedded-opentype"),url("./fonts/futura-md-bt-bold-webfont.woff2") format("woff2"),url("./fonts/futura-md-bt-bold-webfont.woff") format("woff"),url("./fonts/futura-md-bt-bold-webfont.ttf") format("truetype"),url("./fonts/futura-md-bt-bold-webfont.svg#futura_md_btbold") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:"futuraltbtlight";src:url("./fonts/futuraltbtlight-webfont.eot");src:url("./fonts/futuraltbtlight-webfont.eot#iefix") format("embedded-opentype"),url("./fonts/futuraltbtlight-webfont.woff") format("woff"),url("./fonts/futuraltbtlight-webfont.ttf") format("truetype"),url("./fonts/futuraltbtlight-webfont.svg") format("svg");font-weight:normal;font-style:normal}body{background:#fff;font-family:'Arial', Helvetica, sans-serif;font-size:62.5%;line-height:1;color:#666}br{display:block;line-height:1.6em}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ol,ul{list-style:none}input,textarea{-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;outline:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}strong,b{font-weight:bold}table{border-collapse:collapse;border-spacing:0}img{border:0;max-width:100%}h1{font-size:20px}h3{font-size:14px;margin-bottom:4px}p{font-family:"Arial", sans-serif;font-size:12px;color:#000}a{text-decoration:none}a:hover{opacity:0.9;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";filter:alpha(opacity=90);-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out}[class*="column-"]{padding:0 14px}[class*="column-"]:last-child{padding-right:0}[class*="column-"]:first-child{padding-left:0}.column-1{width:8.33333%}.column-2{width:16.66667%}.column-3{width:25%}.column-4{width:33.33333%}.column-5{width:41.66667%}.column-6{width:50%}.column-7{width:58.33333%}.column-8{width:66.66667%}.column-9{width:75%}.column-10{width:83.33333%}.column-11{width:91.66667%}.column-12{width:100%}.row{width:968px;margin:0 auto;*zoom:1}.row:before,.row:after{display:table;content:""}.row:after{clear:both}@media only screen and (max-width: 768px){.row{width:100%}[class*="column-"]{width:50%}}@media only screen and (max-width: 480px){[class*="column-"]{width:100%}}.btn{display:block;padding:12px;font-size:12px;font-weight:bold;color:#000;text-decoration:none;text-transform:uppercase;background:#f1bd00;opacity:0.9s;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90s)";filter:alpha(opacity=90s)}.btn-contact{width:180px;height:40px;font-family:'futuraltbtlight';margin-bottom:10px;position:relative;padding-left:38px;background:#ffca00;background:-moz-linear-gradient(top, #ffca00 0%, #e89a00 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffca00), color-stop(100%, #e89a00));background:-webkit-linear-gradient(top, #ffca00 0%, #e89a00 100%);background:-o-linear-gradient(top, #ffca00 0%, #e89a00 100%);background:-ms-linear-gradient(top, #ffca00 0%, #e89a00 100%);background:linear-gradient(to bottom, #ffca00 0%, #e89a00 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffca00', endColorstr='#e89a00',GradientType=0 )}.btn-contact b{font-weight:bold;font-family:'futura_md_btbold'}.btn-buy{width:123px;height:33px;color:#fff;margin:6px auto 0;position:relative;padding:11px 0 11px 16px;border:1px solid #3b3b3b;-webkit-box-shadow:0 0 0 1px #161616;-moz-box-shadow:0 0 0 1px #161616;box-shadow:0 0 0 1px #161616;background-color:#222222;background-image:-moz-linear-gradient(top, #1F1F1F 0%, #151515 100%);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #1F1F1F), color-stop(100%, #151515));background-image:-webkit-linear-gradient(top, #1F1F1F 0%, #151515 100%);background-image:-o-linear-gradient(top, #1F1F1F 0%, #151515 100%);background-image:-ms-linear-gradient(top, #1F1F1F 0%, #151515 100%);background-image:linear-gradient(to bottom, #1F1F1F 0%, #151515 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#1F1F1F', endColorstr='#151515',GradientType=0 )}.btn-buy span{background:url("../img/icon-car.png") no-repeat 0 0;display:block;width:17px;height:17px;position:absolute;left:15px;top:7px}.header{margin:20px 0 30px}.logo{background:url("../img/logo-profite.png") no-repeat;width:260px;height:100px;display:inline-block;text-indent:-9999px}.nav-menu li{float:left;margin:30px 10px;min-width:232px;text-align:center;background:#000}.nav-menu li:last-child{margin-right:0}.nav-menu li a{text-transform:uppercase;font-weight:bold;font-size:12px;color:#fff;padding:10px 20px;display:inline-block}#home-slider{width:100%;white-space:nowrap}#home-slider .slide{width:968px;display:inline-block;white-space:normal}.banner{position:relative;overflow:hidden;margin:0 auto 76px;background:#f1bd00;padding-left:56px;min-height:330px}.banner h1{font-size:80px;font-family:'futura_md_btbold';text-transform:uppercase;color:#fff;line-height:55px;margin:76px 0 30px;text-shadow:2px 2px 1px #cd8c00}.banner h1 span{font-size:50px}.banner p{font-family:'futuraltbtlight';text-transform:uppercase;font-size:15px}.banner figure{margin:10px 0}.slide_menu{position:absolute;right:20px;top:140px}.slide_menu .active a,.slide_menu .inactive a{width:20px;height:20px;display:inline-block;text-indent:-9999px;margin-bottom:10px}.slide_menu .active a{background:url("../img/icon-bullet.png") no-repeat 0 0}.slide_menu .active a:hover{background:url("../img/icon-bullet-off.png") no-repeat 0 0}.slide_menu .inactive a{background:url("../img/icon-bullet-off.png") no-repeat 0 0}.slide_menu .inactive a:hover{background:url("../img/icon-bullet.png") no-repeat 0 0}.product .column-3{text-align:center;border-left:1px solid #c5c5c5;padding:30px 0 10px;-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out}.product .column-3:first-child{border-left:0}.product .column-3:hover{background:#f3f3f3;-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out}.product .values{min-height:50px}.prod-ferracini{cursor:pointer;margin-bottom:20px}.prod-ferracini h3{font-size:13px;padding:30px 30px 5px}.prod-ferracini p{font-size:12px;font-weight:bold}.prod-ferracini p i{font-style:italic}.prod-ferracini .save-money{border:1px solid #c5c5c5;display:block;padding:6px;font-size:11px;margin:10px auto;max-width:160px;color:#000;text-align:center}.rating-star li{width:21px;height:21px;display:inline-block;text-indent:-9999px;background:url("../img/icon-star.png") no-repeat 0 0;background-size:18px;margin-bottom:10px;cursor:pointer}.rating-star li:hover{background:url("../img/icon-star-gold.png") no-repeat 0 0;background-size:18px}.footer{background:url(../img/bg-footer.png) repeat 0 0;overflow:hidden;margin-top:85px}.footer .row{padding:55px 78px}.footer .icon-rj,.footer .icon-sp{background:url(../img/icon-location.png) no-repeat 0 0;display:block;width:50px;height:40px;font-size:20px;font-weight:bold;color:#000;line-height:40px;padding:0 8px}.footer .location{padding:10px;line-height:20px}.footer .icon-tel,.footer .icon-help{width:26px;height:25px;position:absolute;left:10px}.footer .icon-tel{background:url("../img/icon-tel.png") no-repeat 0 0}.footer .icon-help{background:url("../img/icon-help.png") no-repeat 0 0}
-/*# sourceMappingURL=main.css.map */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; outline: none; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+html { overflow-y: scroll; }
+
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+
+.clearfix { display: inline-block; }
+
+html[xmlns] .clearfix { display: block; }
+
+* html .clearfix { height: 1%; }
+
+[class*="column-"], .footer .icon-rj, .footer .icon-sp, .footer .location { float: left; }
+
+.nav-menu { float: right; }
+
+.prod-ferracini h3, .prod-ferracini p { line-height: 18px; font-weight: bold; color: #000; }
+
+.relative { position: relative; }
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on July 18, 2015 */
+@font-face { font-family: 'futura_md_btbold'; src: url("./fonts/futura-md-bt-bold-webfont.eot"); src: url("./fonts/futura-md-bt-bold-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/futura-md-bt-bold-webfont.woff2") format("woff2"), url("./fonts/futura-md-bt-bold-webfont.woff") format("woff"), url("./fonts/futura-md-bt-bold-webfont.ttf") format("truetype"), url("./fonts/futura-md-bt-bold-webfont.svg#futura_md_btbold") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "futuraltbtlight"; src: url("./fonts/futuraltbtlight-webfont.eot"); src: url("./fonts/futuraltbtlight-webfont.eot#iefix") format("embedded-opentype"), url("./fonts/futuraltbtlight-webfont.woff") format("woff"), url("./fonts/futuraltbtlight-webfont.ttf") format("truetype"), url("./fonts/futuraltbtlight-webfont.svg") format("svg"); font-weight: normal; font-style: normal; }
+body { background: #fff; font-family: 'Arial', Helvetica, sans-serif; font-size: 62.5%; line-height: 1; color: #666; }
+
+br { display: block; line-height: 1.6em; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+ol, ul { list-style: none; }
+
+input, textarea { -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; outline: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+strong, b { font-weight: bold; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+img { border: 0; max-width: 100%; }
+
+h1 { font-size: 20px; }
+
+h3 { font-size: 14px; margin-bottom: 4px; }
+
+p { font-family: "Arial", sans-serif; font-size: 12px; color: #000; }
+
+a { text-decoration: none; }
+a:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90); opacity: 0.9; -moz-transition: all, 0.2s, linear; -o-transition: all, 0.2s, linear; -webkit-transition: all, 0.2s, linear; transition: all, 0.2s, linear; }
+
+[class*="column-"] { padding: 0 14px; }
+[class*="column-"]:last-child { padding-right: 0; }
+[class*="column-"]:first-child { padding-left: 0; }
+
+.column-1 { width: 8.33333%; }
+
+.column-2 { width: 16.66667%; }
+
+.column-3 { width: 25%; }
+
+.column-4 { width: 33.33333%; }
+
+.column-5 { width: 41.66667%; }
+
+.column-6 { width: 50%; }
+
+.column-7 { width: 58.33333%; }
+
+.column-8 { width: 66.66667%; }
+
+.column-9 { width: 75%; }
+
+.column-10 { width: 83.33333%; }
+
+.column-11 { width: 91.66667%; }
+
+.column-12 { width: 100%; }
+
+.row { width: 968px; margin: 0 auto; *zoom: 1; }
+.row:before, .row:after { display: table; content: ""; }
+.row:after { clear: both; }
+
+@media only screen and (max-width: 768px) { .row { width: 100%; }
+  [class*="column-"] { width: 50%; } }
+@media only screen and (max-width: 480px) { [class*="column-"] { width: 100%; } }
+.btn { display: block; padding: 12px; font-size: 12px; font-weight: bold; color: #000; text-decoration: none; text-transform: uppercase; background: #f1bd00; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90s); opacity: 0.9s; }
+
+.btn-contact { width: 180px; height: 40px; font-family: 'futuraltbtlight'; margin-bottom: 10px; position: relative; padding-left: 38px; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffca00+0,e89a00+100 */ background: #ffca00; /* Old browsers */ background: -moz-linear-gradient(top, #ffca00 0%, #e89a00 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffca00), color-stop(100%, #e89a00)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #ffca00 0%, #e89a00 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #ffca00 0%, #e89a00 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top, #ffca00 0%, #e89a00 100%); /* IE10+ */ background: linear-gradient(to bottom, #ffca00 0%, #e89a00 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffca00', endColorstr='#e89a00',GradientType=0 ); /* IE6-9 */ }
+.btn-contact b { font-weight: bold; font-family: 'futura_md_btbold'; }
+
+.btn-buy { width: 123px; height: 33px; color: #fff; margin: 6px auto 0; position: relative; padding: 11px 0 11px 16px; border: 1px solid #3b3b3b; -moz-box-shadow: inset 0 0 0 1px #161616; -webkit-box-shadow: inset 0 0 0 1px #161616; box-shadow: inset 0 0 0 1px #161616; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222222+0,161616+100 */ background-color: #222222; /* Old browsers */ background-image: -moz-linear-gradient(top, #1F1F1F 0%, #151515 100%); /* FF3.6+ */ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1F1F1F), color-stop(100%, #151515)); /* Chrome,Safari4+ */ background-image: -webkit-linear-gradient(top, #1F1F1F 0%, #151515 100%); /* Chrome10+,Safari5.1+ */ background-image: -o-linear-gradient(top, #1F1F1F 0%, #151515 100%); /* Opera 11.10+ */ background-image: -ms-linear-gradient(top, #1F1F1F 0%, #151515 100%); /* IE10+ */ background-image: linear-gradient(to bottom, #1f1f1f 0%, #151515 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1F1F1F', endColorstr='#151515',GradientType=0 ); /* IE6-9 */ }
+.btn-buy span { background: url("../img/icon-car.png") no-repeat 0 0; display: block; width: 17px; height: 17px; position: absolute; left: 15px; top: 7px; }
+
+.header { margin: 20px 0 30px; }
+
+.logo { background: url("../img/logo-profite.png") no-repeat; width: 260px; height: 100px; display: inline-block; text-indent: -9999px; }
+
+.nav-menu li { float: left; margin: 30px 10px; min-width: 232px; text-align: center; background: #000; }
+.nav-menu li:last-child { margin-right: 0; }
+.nav-menu li a { text-transform: uppercase; font-weight: bold; font-size: 12px; color: #fff; padding: 10px 20px; display: inline-block; }
+
+#home-slider { width: 100%; white-space: nowrap; }
+
+#home-slider .slide { width: 968px; display: inline-block; white-space: normal; }
+
+.banner { position: relative; overflow: hidden; margin: 0 auto 76px; background: #f1bd00; padding-left: 56px; min-height: 330px; }
+.banner h1 { font-size: 80px; font-family: 'futura_md_btbold'; text-transform: uppercase; color: #fff; line-height: 55px; margin: 76px 0 30px; text-shadow: 2px 2px 1px #cd8c00; }
+.banner h1 span { font-size: 50px; }
+.banner p { font-family: 'futuraltbtlight'; text-transform: uppercase; font-size: 15px; }
+.banner figure { margin: 10px 0; }
+
+.slide_menu { position: absolute; right: 20px; top: 140px; }
+.slide_menu .active a, .slide_menu .inactive a { width: 20px; height: 20px; display: inline-block; text-indent: -9999px; margin-bottom: 10px; }
+.slide_menu .active a { background: url("../img/icon-bullet.png") no-repeat 0 0; }
+.slide_menu .active a:hover { background: url("../img/icon-bullet-off.png") no-repeat 0 0; }
+.slide_menu .inactive a { background: url("../img/icon-bullet-off.png") no-repeat 0 0; }
+.slide_menu .inactive a:hover { background: url("../img/icon-bullet.png") no-repeat 0 0; }
+
+.product .column-3 { text-align: center; border-left: 1px solid #c5c5c5; padding: 30px 0 10px; -moz-transition: all, 0.3s, linear; -o-transition: all, 0.3s, linear; -webkit-transition: all, 0.3s, linear; transition: all, 0.3s, linear; }
+.product .column-3:first-child { border-left: 0; }
+.product .column-3:hover { background: #f3f3f3; -moz-transition: all, 0.3s, linear; -o-transition: all, 0.3s, linear; -webkit-transition: all, 0.3s, linear; transition: all, 0.3s, linear; }
+.product .values { min-height: 50px; }
+
+.prod-ferracini { cursor: pointer; margin-bottom: 20px; }
+.prod-ferracini h3 { font-size: 13px; padding: 30px 30px 5px; }
+.prod-ferracini p { font-size: 12px; font-weight: bold; }
+.prod-ferracini p i { font-style: italic; }
+.prod-ferracini .save-money { border: 1px solid #c5c5c5; display: block; padding: 6px; font-size: 11px; margin: 10px auto; max-width: 160px; color: #000; text-align: center; }
+
+.rating-star li { width: 21px; height: 21px; display: inline-block; text-indent: -9999px; background: url("../img/icon-star.png") no-repeat 0 0; background-size: 18px; margin-bottom: 10px; cursor: pointer; }
+.rating-star li:hover { background: url("../img/icon-star-gold.png") no-repeat 0 0; background-size: 18px; }
+
+.footer { background: url(../img/bg-footer.png) repeat 0 0; overflow: hidden; margin-top: 85px; }
+.footer .row { padding: 55px 78px; }
+.footer .icon-rj, .footer .icon-sp { background: url(../img/icon-location.png) no-repeat 0 0; display: block; width: 50px; height: 40px; font-size: 20px; font-weight: bold; color: #000; line-height: 40px; padding: 0 8px; }
+.footer .location { padding: 10px; line-height: 20px; }
+.footer .icon-tel, .footer .icon-help { width: 26px; height: 25px; position: absolute; left: 10px; }
+.footer .icon-tel { background: url("../img/icon-tel.png") no-repeat 0 0; }
+.footer .icon-help { background: url("../img/icon-help.png") no-repeat 0 0; }

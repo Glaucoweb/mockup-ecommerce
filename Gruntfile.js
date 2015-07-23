@@ -29,18 +29,22 @@ module.exports = function(grunt) {
     },
 
     // Compiles Sass to CSS and generates necessary files if requested
-
-    sass: {
-      dist: {
-        options: {
-          style: 'compressed'
-        },
-        files: {
-          'app/css/main.css': 'app/css/scss/main.scss'
+    
+    compass: {
+        dev: {
+            options: {
+               /* Either use your config.rb for settings, or state them here */
+               //config: 'config.rb'
+               sassDir: 'app/css/scss',
+               cssDir: 'app/css',
+               outputStyle:"compact",
+               noLineComments:true,
+               relativeAssets:true,
+               raw: "preferred_syntax = :sass\n"
+            }
         }
-      }
     },
-
+    
     cssmin: {
       target: {
         files: [{
@@ -56,7 +60,7 @@ module.exports = function(grunt) {
     watch: {
       css: {
         files: 'app/**/*.scss',
-        tasks: ['sass']
+        tasks: ['compass']
       },
       js: {
         files: 'app/js/main.js'
@@ -89,7 +93,7 @@ module.exports = function(grunt) {
   });
 
   // Load the plugin that provides the "uglify" task.
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
@@ -97,9 +101,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Default task(s).
-  grunt.registerTask('default', ['concat','sass']);
+  grunt.registerTask('default', ['concat','compass']);
 
   // Grunt build of project.
-  grunt.registerTask('build', ['clean', 'copy', 'uglify', 'sass']);
+  grunt.registerTask('build', ['clean', 'copy', 'uglify', 'compass']);
 
 };
