@@ -1,12 +1,72 @@
 @media only screen and (min-width: 769px){
-
+  .navbar-handle,
+  #navbar-checkbox{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px){
   .row{
       width: 100%;
   }
-
+  #navbar-checkbox{
+    height: 0;
+  }
+  .navbar-handle{
+      position: absolute;
+      right: 12px;
+      top: 65px;
+      width: 26px;
+      height: 30px;
+      margin: 2px 0;
+      display: block;
+      border-top: 6px solid $black;
+      z-index: 100;
+      cursor: pointer;
+      span,b {
+        position: absolute;
+        right: 0;
+        top: 3px;
+        width: 26px;
+        height: 6px;
+        display: block;
+        background:$black;
+      }
+      b{
+        top: 9px;
+      }
+  }
+   #navbar-checkbox:checked + .nav-menu {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 200px;
+      display: block;
+      background: $white;
+      z-index: 99;
+      border-top: 40px solid $grayLight;
+      @include transition(all, 0.2s, linear );
+      @include opacity(1);
+      li {
+        visibility: visible;
+        float: none;
+        margin:10px;
+        text-align: center;
+        background:none;
+        text-align: left;
+        a{
+          color: $black;
+        }
+      }
+  }
+  .nav-menu{
+    height:0;
+    @include opacity(0.0);
+  }
+  .banner,.slide_menu{
+    display: none;
+  }
   [class*="column-"] {
   	width: 50%;
   }

@@ -109,6 +109,7 @@
 		text-align: center;
 		border-left:1px solid $gray;
 		padding: 30px 0 10px;
+		margin-top: 20px;
 		@include transition(all, 0.3s, linear );
 		&:first-child{
 			border-left: 0;

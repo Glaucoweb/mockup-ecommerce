@@ -82,7 +82,17 @@ a:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90); opacity: 
 .row:before, .row:after { display: table; content: ""; }
 .row:after { clear: both; }
 
+@media only screen and (min-width: 769px) { .navbar-handle, #navbar-checkbox { display: none; } }
 @media only screen and (max-width: 768px) { .row { width: 100%; }
+  #navbar-checkbox { height: 0; }
+  .navbar-handle { position: absolute; right: 12px; top: 65px; width: 26px; height: 30px; margin: 2px 0; display: block; border-top: 6px solid #000; z-index: 100; cursor: pointer; }
+  .navbar-handle span, .navbar-handle b { position: absolute; right: 0; top: 3px; width: 26px; height: 6px; display: block; background: #000; }
+  .navbar-handle b { top: 9px; }
+  #navbar-checkbox:checked + .nav-menu { position: absolute; top: 0; left: 0; width: 100%; height: 200px; display: block; background: #fff; z-index: 99; border-top: 40px solid #f3f3f3; -moz-transition: all, 0.2s, linear; -o-transition: all, 0.2s, linear; -webkit-transition: all, 0.2s, linear; transition: all, 0.2s, linear; filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
+  #navbar-checkbox:checked + .nav-menu li { visibility: visible; float: none; margin: 10px; text-align: center; background: none; text-align: left; }
+  #navbar-checkbox:checked + .nav-menu li a { color: #000; }
+  .nav-menu { height: 0; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
+  .banner, .slide_menu { display: none; }
   [class*="column-"] { width: 50%; } }
 @media only screen and (max-width: 480px) { [class*="column-"] { width: 100%; } }
 .btn { display: block; padding: 12px; font-size: 12px; font-weight: bold; color: #000; text-decoration: none; text-transform: uppercase; background: #f1bd00; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90s); opacity: 0.9s; }
@@ -118,7 +128,7 @@ a:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90); opacity: 
 .slide_menu .inactive a { background: url("../img/icon-bullet-off.png") no-repeat 0 0; }
 .slide_menu .inactive a:hover { background: url("../img/icon-bullet.png") no-repeat 0 0; }
 
-.product .column-3 { text-align: center; border-left: 1px solid #c5c5c5; padding: 30px 0 10px; -moz-transition: all, 0.3s, linear; -o-transition: all, 0.3s, linear; -webkit-transition: all, 0.3s, linear; transition: all, 0.3s, linear; }
+.product .column-3 { text-align: center; border-left: 1px solid #c5c5c5; padding: 30px 0 10px; margin-top: 20px; -moz-transition: all, 0.3s, linear; -o-transition: all, 0.3s, linear; -webkit-transition: all, 0.3s, linear; transition: all, 0.3s, linear; }
 .product .column-3:first-child { border-left: 0; }
 .product .column-3:hover { background: #f3f3f3; -moz-transition: all, 0.3s, linear; -o-transition: all, 0.3s, linear; -webkit-transition: all, 0.3s, linear; transition: all, 0.3s, linear; }
 .product .values { min-height: 50px; }
