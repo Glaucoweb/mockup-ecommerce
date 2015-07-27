@@ -1,6 +1,3 @@
-// Simple Slider Script (c)2013 John Davenport Scheuer
-// as first seen in http://www.dynamicdrive.com/forums/
-// username: jscheuer1 - This Notice Must Remain for Legal Use
 jQuery(function($){
 	var totWidth = 0, mouseisover, pause = 3000, resume = 1000;
 		$('#home-slider .slide').each(function(i, s){
